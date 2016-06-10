@@ -1,0 +1,48 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "M101x Introduction to MongoDB using the MEAN Stack",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "http-status": "^0.2.2",
+    "mongodb": "^2.1.19",
+    "mongoose": "^4.4.19",
+    "passport": "^0.3.2",
+    "passport-google-oauth2": "^0.1.6",
+    "stripe": "^4.6.0",
+    "superagent": "^2.0.0-alpha.3",
+    "underscore": "^1.8.3",
+    "wagner-core": "^0.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-mocha": "^2.2.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.5.2"
+  },
+  "scripts": {
+    "check-credentials": "mocha part1.js",
+    "test": "mocha test.js",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmaranga/meanexample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmaranga/meanexample/issues"
+  },
+  "homepage": "https://github.com/gmaranga/meanexample#readme"
+}
